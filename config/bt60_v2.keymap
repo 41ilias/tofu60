@@ -28,7 +28,7 @@
 
 		ht: hold-tap {
 			compatible = "zmk,behavior-hold-tap";
-      label = "HOLD_TAP"
+      label = "HOLD_TAP";
       #binding-cells = <2>;
       bindings = <&kp>, <&kp>;
 			flavor = "hold-preferred";
