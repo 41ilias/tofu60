@@ -11,6 +11,8 @@
   };
 
 	behaviors {
+    &caps_word;
+
 		rpi: require_prior_idle {
 			compatible = "zmk,behavior-hold-tap";
 			label = "REQUIRE_PRIOR_IDLE";
